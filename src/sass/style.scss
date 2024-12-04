@@ -1,0 +1,50 @@
+@use './utilities/index' as *;
+
+body {
+	display: grid;
+	place-items: center;
+	font-size: 16px;
+	font-family: 'Commissioner', sans-serif;
+	background-color: #333;
+	color: white;
+}
+
+.form {
+	margin: 0 auto;
+	padding: 2em;
+	display: grid;
+	place-items: center;
+	width: 550px;
+	background-color: rgb(35, 35, 61);
+	border: 1px solid royalblue;
+}
+
+.label {
+	margin-bottom: 0.5em;
+}
+
+.input {
+	display: block;
+	padding: 0.5em 0.7em;
+	margin-bottom: 2em;
+}
+
+.btn {
+	padding: 0.5em 1em;
+	background-color: white;
+	border-radius: 0.2em;
+	font-size: 1.7rem;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.checkbox {
+	cursor: pointer;
+}
+
+.lorem {
+	text-align: center;
+	margin-top: 2em;
+	width: 600px;
+}
+
